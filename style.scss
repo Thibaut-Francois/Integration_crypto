@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    margin: 4vh 10px;
+    background-color: black;
+    color: white;    
+}
+
+img{
+    height: 40px;
+    width: auto;
+}
+
+main{
+    display: flex;
+}
+
+nav{
+    width: 20%;
+    padding: 5px 5px;
+
+    div{
+        div{
+            display: flex;
+        }
+    }
+
+    .dashboard{
+        background-color: #6c1182;
+        border-radius: 15px;
+    }
+}
+
+section{
+    width: 55%;
+    padding: 5px 5px;
+
+    .title{
+        display: flex;
+        justify-content: space-between;
+
+        div{
+            background-color: white;
+            border-radius: 10px;
+
+            img{
+                height: 35px;
+                margin: 2px 5px;
+                background-color: white;
+                border: none;
+            }
+
+            input{
+                background-color: white;
+                border: none;
+                margin: 2px 5px;
+            }
+        }
+    }
+
+    div{
+        div{
+            display: flex;
+
+            span{
+                margin: 0 5px;
+                padding: 2px;
+                background-color:#FAFF00;
+                border-radius: 5px;
+                color: black;
+            }
+
+            .slider{
+                display: flex;
+                margin: 0 auto;
+                padding: 5px 10px;
+                background-color: #292727;
+                border-radius: 10px;
+
+                p{
+                    padding: 3px 10px;
+                    background-color: #292727;
+                    border-radius: 10px;
+                }
+
+                .portfolio{
+                    background-color: black;
+                }
+            }
+        }
+
+        img{
+            margin: 15px;
+            width: 90%;
+            height: auto;
+        }
+    }
+
+    .under_title{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottom{
+        div{
+            display: flex;
+            margin: 2vh auto;
+            background-color: #16181e;
+            border-radius: 30px;
+            
+            img{
+                height: 40px;
+                width: auto;
+                background-color: transparent;
+            }
+
+            .wave{
+                height: 10px;
+                width: auto;
+                background-color: transparent;
+            }
+
+            div{
+                display: flex;
+                flex-direction: column;
+                
+
+                p{
+                    background-color: #16181e;
+                }
+            }
+        }
+    }
+}
+
+sider{
+    width: 25%;
+    padding: 5px 5px;
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mid{
+        div{
+            display: flex;
+
+            div{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    .bot{
+        div{
+            border-radius: 15px;
+            margin: 15px;
+
+            .flux{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        .bitcoin{
+            background-color: #6c1182;
+        }
+
+        .etherium{
+            background-color: #faff00;
+            color: black;
+        }
+    }
+}

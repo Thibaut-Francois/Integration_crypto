@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 4vh 10px;
+  background-color: black;
+  color: white;
+}
+
+img {
+  height: 40px;
+  width: auto;
+}
+
+main {
+  display: flex;
+}
+
+nav {
+  width: 20%;
+  padding: 5px 5px;
+}
+nav div div {
+  display: flex;
+}
+nav .dashboard {
+  background-color: #6c1182;
+  border-radius: 15px;
+}
+
+section {
+  width: 55%;
+  padding: 5px 5px;
+}
+section .title {
+  display: flex;
+  justify-content: space-between;
+}
+section .title div {
+  background-color: white;
+  border-radius: 10px;
+}
+section .title div img {
+  height: 35px;
+  margin: 2px 5px;
+  background-color: white;
+  border: none;
+}
+section .title div input {
+  background-color: white;
+  border: none;
+  margin: 2px 5px;
+}
+section div div {
+  display: flex;
+}
+section div div span {
+  margin: 0 5px;
+  padding: 2px;
+  background-color: #FAFF00;
+  border-radius: 5px;
+  color: black;
+}
+section div div .slider {
+  display: flex;
+  margin: 0 auto;
+  padding: 5px 10px;
+  background-color: #292727;
+  border-radius: 10px;
+}
+section div div .slider p {
+  padding: 3px 10px;
+  background-color: #292727;
+  border-radius: 10px;
+}
+section div div .slider .portfolio {
+  background-color: black;
+}
+section div img {
+  margin: 15px;
+  width: 90%;
+  height: auto;
+}
+section .under_title {
+  display: flex;
+  justify-content: space-between;
+}
+section .bottom div {
+  display: flex;
+  margin: 2vh auto;
+  background-color: #16181e;
+  border-radius: 30px;
+}
+section .bottom div img {
+  height: 40px;
+  width: auto;
+  background-color: transparent;
+}
+section .bottom div .wave {
+  height: 10px;
+  width: auto;
+  background-color: transparent;
+}
+section .bottom div div {
+  display: flex;
+  flex-direction: column;
+}
+section .bottom div div p {
+  background-color: #16181e;
+}
+
+sider {
+  width: 25%;
+  padding: 5px 5px;
+}
+sider .top {
+  display: flex;
+  justify-content: space-between;
+}
+sider .mid div {
+  display: flex;
+}
+sider .mid div div {
+  display: flex;
+  flex-direction: column;
+}
+sider .bot div {
+  border-radius: 15px;
+  margin: 15px;
+}
+sider .bot div .flux {
+  display: flex;
+  justify-content: space-between;
+}
+sider .bot .bitcoin {
+  background-color: #6c1182;
+}
+sider .bot .etherium {
+  background-color: #faff00;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
