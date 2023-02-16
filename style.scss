@@ -27,14 +27,48 @@ nav{
     padding: 5px 5px;
 
     div{
+        display: flex;
+        flex-direction: column;
+
         div{
             display: flex;
+            flex-direction: row;
+            margin: 10px 0;
+            margin-left: 25%;
+            p{
+                margin: auto 5px;
+            }
+            
+
+            img{
+                height: 35px;
+                width: auto;
+                padding-right: 10px;
+            }
         }
     }
 
+    .logo{
+        margin-bottom: 5vh;
+    }
+
     .dashboard{
-        background-color: #6c1182;
-        border-radius: 15px;
+        padding: 5px 10px;
+        margin: 20px 0;
+        margin-left: 25%;
+        background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
+        border-radius: 17px;
+        color: black;
+
+        img{
+            fill: black;
+        }
+    }
+
+    .exit{
+        position: absolute;
+        bottom: 15px;
+        left: 5%;
     }
 }
 
@@ -150,6 +184,8 @@ sider{
     }
 
     .mid{
+        margin-top: 8vh;
+
         div{
             display: flex;
 
@@ -172,11 +208,13 @@ sider{
         }
 
         .bitcoin{
-            background-color: #6c1182;
+            background: linear-gradient(98.73deg, #611D8D 35.75%, #2F7EC1 73.26%);
+            border-radius: 30px;
         }
 
         .etherium{
-            background-color: #faff00;
+            background: linear-gradient(99.56deg, #FAFF00 35.82%, #29ABE2 64.75%, rgba(255, 255, 255, 0.7) 91.33%);
+            border-radius: 30px;
             color: black;
         }
     }
