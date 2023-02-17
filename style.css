@@ -24,20 +24,24 @@ nav {
   width: 20%;
   padding: 5px 5px;
 }
-nav div {
+nav .fixed {
+  position: fixed;
+  top: 15vh;
+}
+nav .fixed div {
   display: flex;
   flex-direction: column;
 }
-nav div div {
+nav .fixed div div {
   display: flex;
   flex-direction: row;
   margin: 10px 0;
   margin-left: 25%;
 }
-nav div div p {
+nav .fixed div div p {
   margin: auto 5px;
 }
-nav div div img {
+nav .fixed div div img {
   height: 35px;
   width: auto;
   padding-right: 10px;
@@ -47,24 +51,30 @@ nav .logo {
 }
 nav .dashboard {
   padding: 5px 10px;
-  margin: 20px 0;
-  margin-left: 25%;
+  margin: 20px 19%;
   background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
   border-radius: 17px;
   color: black;
+  width: 90%;
 }
-nav .dashboard img {
+nav .dashboard div {
+  display: flex;
+}
+nav .dashboard div img {
   fill: black;
 }
 nav .exit {
-  position: absolute;
+  position: fixed;
   bottom: 15px;
-  left: 5%;
+  width: 11%;
+}
+nav .exit div {
+  display: flex;
 }
 
 section {
   width: 55%;
-  padding: 5px 5px;
+  padding: 5px 20px;
 }
 section .title {
   display: flex;
@@ -73,9 +83,12 @@ section .title {
 section .title div {
   background-color: white;
   border-radius: 10px;
+  margin-right: 6%;
+  width: 47%;
 }
 section .title div img {
   height: 35px;
+  width: auto;
   margin: 2px 5px;
   background-color: white;
   border: none;
@@ -84,6 +97,8 @@ section .title div input {
   background-color: white;
   border: none;
   margin: 2px 5px;
+  width: 100%;
+  outline: none;
 }
 section div div {
   display: flex;
@@ -111,7 +126,6 @@ section div div .slider .portfolio {
   background-color: black;
 }
 section div img {
-  margin: 15px;
   width: 90%;
   height: auto;
 }
@@ -153,17 +167,38 @@ sider .top {
 }
 sider .mid {
   margin-top: 8vh;
+  width: 100%;
+  /*
+          div{
+              display: flex;
+              margin: 5px 15px;
+              text-align: end;
+
+              div{
+                  display: flex;
+                  flex-direction: column;
+              }
+          }
+  */
 }
-sider .mid div {
-  display: flex;
+sider .mid .crypto {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 5px;
 }
-sider .mid div div {
-  display: flex;
-  flex-direction: column;
+sider .mid .crypto div .green {
+  color: #4AD619;
+}
+sider .mid .crypto div .red {
+  color: #D61919;
 }
 sider .bot div {
   border-radius: 15px;
-  margin: 15px;
+  padding: 8px;
 }
 sider .bot div .flux {
   display: flex;
@@ -172,6 +207,7 @@ sider .bot div .flux {
 sider .bot .bitcoin {
   background: linear-gradient(98.73deg, #611D8D 35.75%, #2F7EC1 73.26%);
   border-radius: 30px;
+  margin-bottom: 15px;
 }
 sider .bot .etherium {
   background: linear-gradient(99.56deg, #FAFF00 35.82%, #29ABE2 64.75%, rgba(255, 255, 255, 0.7) 91.33%);
