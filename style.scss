@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    
+    box-sizing: border-box;
 }
 
 body{
@@ -25,6 +25,11 @@ main{
 nav{
     width: 20%;
     padding: 5px 5px;
+
+    .logoTop{
+        position: fixed;
+        left: 4%;
+    }
 
     .fixed{
         position: fixed;
@@ -63,7 +68,7 @@ nav{
         background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
         border-radius: 17px;
         color: black;
-        width: 90%;
+        width: 100%;
 
         div{
             display: flex;
@@ -120,10 +125,11 @@ section{
     div{
         div{
             display: flex;
+            align-items: center;
 
             span{
-                margin: 0 5px;
-                padding: 2px;
+                margin-left:2vh ;
+                padding: 0.2rem 0.5rem;
                 background-color:#FAFF00;
                 border-radius: 5px;
                 color: black;
@@ -165,6 +171,7 @@ section{
             margin: 2vh auto;
             background-color: #16181e;
             border-radius: 30px;
+            padding: 0 2%;
             
             img{
                 height: 40px;
