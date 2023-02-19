@@ -232,7 +232,10 @@ sider .bot .etherium {
     width: 20%;
   }
   nav .logoTop {
-    display: none;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 8vh;
+    left: -3vh;
   }
   nav .fixed {
     position: fixed;
